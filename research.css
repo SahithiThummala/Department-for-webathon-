@@ -1,0 +1,37 @@
+button{
+  font-size: 18px;
+  border background:black;
+  padding:8px;
+  margin:4px 2px;
+}
+p{
+  font-family:Trebuchet MS;
+  line-height:1.2;
+  font-size:120%;
+}
+#eie{
+  background-image:url("eie.jfif");
+  background-repeat: no-repeat;
+  height:200px;
+  background-size: cover;
+  width: 1200px;
+  border:solid black;
+  line-height:0.4;
+  padding: 10px;
+}
+.button1 {border-radius:12px;}
+.button2 {border-radius:12px;}
+.button3 {border-radius:12px;}
+.button5 {border-radius:12px;}
+.button6 {border-radius:12px;}
+#logo{
+  float:left;
+  width:90px;
+  height:90px;
+  margin-left:200px;
+}
+#research{
+  background-image: url("a2.jfif");
+  background-size:cover;
+  opacity:0.8;
+}

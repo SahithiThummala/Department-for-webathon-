@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Dynamic style</title>
+<script type="text/javascript">
+function diplayInput()
+{
+  var testInput = document.getElementById("name").value;
+  if(testInput.length==0)
+  {
+    document.getElementById("para").innerHTML="Hey,you did not type anything!";
+  }
+  else
+    {
+      document.getElementById("para").innerHTML=testInput;
+    }
+}
+</script>
+</head>
+<body>
+<H1 style="color:blue;">Let's see another button</H1>
+<input id="name"type="text"/>
+<button onclick="diplayInput();">Color it</button>
+<p id="para"style="color:green;"></p>
+</body>
+</html>

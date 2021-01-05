@@ -1,0 +1,30 @@
+button{
+  font-size:18px;
+  border background:black;
+  padding:8px;
+  margin:4px 2px;
+}
+#eie{
+  background-image:url("eie.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:200px;
+  width: 1200px;
+  line-height:0.4;
+  border:solid black;
+  padding:10px;
+}
+.button1 {border-radius:12px;}
+.button2 {border-radius:12px;}
+.button3 {border-radius:12px;}
+.button5 {border-radius:12px;}
+.button6 {border-radius:12px;}
+#logo{
+  float:left;
+  width:90px;
+  height:90px;
+  margin-left:200px;
+}
+#e{
+  background-image: url("a2.jfif");
+}

@@ -1,0 +1,115 @@
+#eie{
+  background-image:url("eie.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:200px;
+  width: 1200px;
+  line-height:0.4;
+  border:solid black;
+  padding: 10px;
+}
+h4{
+  font-family:Impact;
+  color:navy;
+  font-size:200%;
+  margin:left;
+}
+button{
+  color:black;
+  font-size:18px;
+  border background:black;
+  padding:8px;
+  margin:4px 2px;
+}
+.button1 {border-radius:12px;}
+.button2 {border-radius:12px;}
+.button3 {border-radius:12px;}
+.button5 {border-radius:12px;}
+.button6 {border-radius:12px;}
+p{
+  margin-right:300px;
+  line-height:1.2;
+  font-size:150%;"
+  color:black;
+  font-family:"Microsoft JhengHei";
+}
+#text{
+  display:block;
+}
+#logo{
+  float:left;
+  width:90px;
+  height:90px;
+  margin-left:200px;
+}
+#news{
+  float:right;
+  text-align:center;
+  width:170px;
+  height:850px;
+  border:solid black;
+  padding:20px;
+  margin:10px;
+  line-height:1.2;
+}
+#slide{
+  background-color:white;
+  color:black;
+  float:right;
+  padding:10px;
+  border:solid black;
+  width:200px;
+  height:600px;
+}
+#linear{
+    text-align:center;
+    height:30px;
+    width:700px;
+    padding:10px;
+    margin-left:100px;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+
+}
+#div {animation-timing-function:linear;}
+@keyframes blink {
+    0% {
+            background:pink;
+        }
+        15% {
+            background:violet;
+        }
+        58% {
+            background:yellow;
+        }
+        70% {
+            background:orange;
+        }
+        85% {
+            background: greenyellow;
+        }
+         100% {
+            background:tomato;
+        }
+}
+@-webkit-keyframes blink {
+        0% {
+            background:pink;
+        }
+        30% {
+            background:blue;
+        }
+        58% {
+            background:yellow;
+        }
+        70% {
+            background:orange;
+        }
+        85% {
+            background: greenyellow;
+        }
+         100% {
+            background:tomato;
+        }
+}
