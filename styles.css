@@ -1,8 +1,4 @@
-.elec {
-    width: 100%; /* width of container */
-    height: 100px; /* height of container */
-    object-fit: cover;
-   }
+
 #eie{
   background-image:url("eie.jfif");
   background-repeat: no-repeat;
